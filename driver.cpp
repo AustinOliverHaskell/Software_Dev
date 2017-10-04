@@ -7,7 +7,14 @@ int main()
 	
 }
 
-void square(int & number)
+void power(const int & base, const int & pow)
 {
-	cout << number * number << endl;
+	int retVal = base;
+
+	for (int i = 0; i < pow; i++)
+	{
+		retVal *= base;
+	}
+
+	cout << retVal << endl;
 }

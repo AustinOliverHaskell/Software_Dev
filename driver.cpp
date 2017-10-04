@@ -6,3 +6,8 @@ int main()
 {
 	
 }
+
+void square(int & number)
+{
+	cout << number * number << endl;
+}
